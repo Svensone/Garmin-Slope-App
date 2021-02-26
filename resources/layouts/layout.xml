@@ -1,0 +1,6 @@
+<layout id="MainLayout">
+    <bitmap id="bg" x="0" y='0' filename='../drawables/bg.png'/>
+    <label id="gps" x="center" y="220" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" font="Graphics.FONT_XTINY" />
+    <label id="accelZ" x="center" y="180" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" font="Graphics.FONT_XTINY" />
+    <label id="accelX" x="center" y="-(dc.getHeight() / 2)" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" font="Graphics.FONT_XTINY" />
+</layout>
