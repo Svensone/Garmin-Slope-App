@@ -13,13 +13,14 @@ var aY = null;
 var aZ = null;
 var angleL = null;
 var zAngle = 30;
+var zAngleNorm = 0;
 var zAngle_short = null;
 var zSlope = null;
 var zAngleV2 = null;
 var zSlopeV2 = null;
 var x1= 260;
 var x2 =130;
-var y1= 60 ;
+var y1= 130 ;
 var y2 = 130;
 
 // GPS Variables
@@ -51,7 +52,7 @@ class Slope_WidgetView extends WatchUi.View {
 		// Load resources
         backgroundImg = WatchUi.loadResource(Rez.Drawables.bg);
         // activate GPS Data
-        Position.enableLocationEvents(Position.LOCATION_ONE_SHOT, method(:setPosition));
+        Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:setPosition));
         // activate Accelerometer (period= every "" seconds, sampleRate= number of values per period)
 		var options = {:period => 1, :sampleRate => 1, :enableAccelerometer => true};
 		Sensor.registerSensorDataListener(method(:accelHistoryCallback), options);
@@ -81,24 +82,27 @@ class Slope_WidgetView extends WatchUi.View {
 		// Step 2: Normalize the data:
 
         // Normalize the data
-        // var norm = Math.sqrt(sq(xAccel) + sq(yAccel) + sq(zAccel));
-        // var xNorm = xAccel / norm;
-        // var yNorm = yAccel / norm;
-        // var zNorm = zAccel / norm;
+        var norm = Math.sqrt(sq(xAccel) + sq(yAccel) + sq(zAccel));
+        var xNorm = xAccel / norm;
+        var yNorm = yAccel / norm;
+        var zNorm = zAccel / norm;
         
 		// Step 3: Calculate the Angle and Slope of Device deviation from hor. position 
 
         // Version 1:
+        // error suscepticle - if zAccel = 0 error since not able to divide with zero
         // http://wizmoz.blogspot.com/2013/01/simple-accelerometer-data-conversion-to.html
         // only for Z since indicates angle device deviation from horizontal position
-        zAngle = Math.atan(Math.sqrt(sq(xNorm) + sq(yNorm)) / zNorm);
         
+        zAngle = Math.atan(Math.sqrt(sq(xAccel) + sq(yAccel)) / zAccel);
+        zAngleNorm = Math.atan(Math.sqrt(sq(xNorm) + sq(yNorm)) / zNorm);
+        zAngleNorm = zAngleNorm / Math.PI * 180;
         zAngle = zAngle / Math.PI * 180; // from radians to degrees
         zAngle_short = zAngle.format("%.f"); // no decimal needed 
         
         // steigungswinkel -> Steigung m= tan(alpha)
         zSlope = Math.tan(zAngle);
-        System.println( "Version 1: Angle in degrees : " + zAngle_short + "  Slope : "+zSlope);
+        System.println( "Version 1: Angle in degrees : " + zAngleNorm +'   ' + zAngle_short + "  Slope : "+zSlope);
         
         // Version 2: WRONG !?
         // https://github.com/otfried/cs109-kotlin/blob/master/mini-apps/gravity2.kt
@@ -115,7 +119,8 @@ class Slope_WidgetView extends WatchUi.View {
 		var cos_p = zAccel / m;
 		var zAngle3 = Math.acos(cos_p);
 		zAngle3 = zAngle3 * 180 / Math.PI;
-		var zslope3 = Math.tan(zAngle3);
+		var zSlope3 = Math.tan(zAngle3);
+        System.println( "Version 3: Angle in degrees : " + zAngle3 + "  Slope : "+zSlope3);
 
 		// Getting the coordinates for the slope line on display
 
@@ -140,11 +145,6 @@ class Slope_WidgetView extends WatchUi.View {
 //		x2 = 130 ;
 //		y2 = 130;
 //		}
-
-		
-		
-		
-		
 		WatchUi.requestUpdate();
 		}
 
@@ -226,13 +226,8 @@ class Slope_WidgetView extends WatchUi.View {
 		var height_diff = null;
 
 		height_diff = profiles[0]- profiles[3];
+		height_diff = height_diff.abs();
 		System.println(" height Difference in m : " + height_diff + " on a length of 30.9m");
-
-//		if (profiles[0]> profiles[3]) {
-//			height_diff = profiles[0]- profiles[3];
-//		} else {
-//			height_diff = profiles[3] - profiles[0];
-//		}
 
 		// angle of right traingle with arctan( opposite cathete / ankathete) 
 		// ankathete = 30.9 since adding 1 sec to longitude 
