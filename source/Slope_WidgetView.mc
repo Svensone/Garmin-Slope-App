@@ -7,17 +7,11 @@ using Toybox.Math;
 using Toybox.Communications as Comm;
 
 // 		Variables
-// Accelerometer
-var aX = null;
-var aY = null;
-var aZ = null;
-var angleL = null;
-var zAngle = 30;
-var zAngleNorm = null;
-var zAngle_short = null;
+////////////////////
+// Manual Angle Approx.
 var zAngle3_degrees = null;
 var angleDisplay = 0;
-var zSlope = null;
+
 var x1= 260;
 var x2 =130;
 var y1= 130 ;
@@ -27,14 +21,12 @@ var y2 = 130;
 var locationString;
 var referenceLocation;
 
-// //Display
+// //Display (Fenix 6S Pro) - for te
 var displayWidth = 260;
 var displayHeight = 260;
 
 // Elevation Api
 var angleAPI = 0;
-
-
 
 class Slope_WidgetView extends WatchUi.View {
 
@@ -43,6 +35,7 @@ class Slope_WidgetView extends WatchUi.View {
     }
 	
 	var backgroundImg;
+	
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.MainLayout(dc));
@@ -52,9 +45,9 @@ class Slope_WidgetView extends WatchUi.View {
 		// Load resources
         backgroundImg = WatchUi.loadResource(Rez.Drawables.bg);
         // activate GPS Data
-        Position.enableLocationEvents(Position.LOCATION_CONTINUOUS, method(:setPosition));
+        Position.enableLocationEvents(Position.LOCATION_ONE_SHOT , method(:setPosition)); // or LOCATION_CONTINUOUS
         // activate Accelerometer (period= every "" seconds, sampleRate= number of values per period)
-		var options = {:period => 4, :sampleRate => 1, :enableAccelerometer => true};
+		var options = {:period => 1, :sampleRate => 1, :enableAccelerometer => true};
 		Sensor.registerSensorDataListener(method(:accelHistoryCallback), options);
 		
 		View.onUpdate(dc);
@@ -64,11 +57,10 @@ class Slope_WidgetView extends WatchUi.View {
 		// Step 1: Gett the data: 
 		//////////////////////////
 		// Option1:  sensorData
-		// Which value from sensorData? mean value or set treshold?
 		var xAccel = sensorData.accelerometerData.x[0];
 		var yAccel = sensorData.accelerometerData.y[0];
 		var zAccel = sensorData.accelerometerData.z[0];
-		System.println("  Accelerometer Data from .accelerometerData x, y and z : "+ xAccel + ", " + yAccel + ", " + zAccel);
+//		System.println("  Accelerometer Data from .accelerometerData x, y and z : "+ xAccel + ", " + yAccel + ", " + zAccel);
 		
 		// Option 2: Sensor.getInfo() // why different data from Sensor.getInfo()? sensorData(see above) same with .FIT file
 //		var info = Sensor.getInfo();
@@ -81,36 +73,13 @@ class Slope_WidgetView extends WatchUi.View {
 
 		// Step 2: Normalize the data:
 		//////////////////////////////////
-        var norm = Math.sqrt(sq(xAccel) + sq(yAccel) + sq(zAccel));
+        var norm = Math.sqrt(Math.pow(xAccel, 2) + Math.pow(yAccel, 2) + Math.pow(zAccel, 2));
         var xNorm = xAccel / norm;
         var yNorm = yAccel / norm;
         var zNorm = zAccel / norm;
         
 		// Step 3: Calculate the Angle and Slope of Device deviation from horizontal position 
 		/////////////////////////////////////////////////////////////////////////////////////
-
-        // Version 1:
-        // error suscepticle - if zAccel = 0, widget breaks - since not able to divide with zero
-        // http://wizmoz.blogspot.com/2013/01/simple-accelerometer-data-conversion-to.html
-        // only for Z since indicates angle device deviation from horizontal position
-        
-        // zAngle = Math.atan(Math.sqrt(sq(xAccel) + sq(yAccel)) / zAccel);
-        
-        // // no difference in Angle results if normalized
-        // zAngleNorm = Math.atan(Math.sqrt(sq(xNorm) + sq(yNorm)) / zNorm);
-        // zAngleNorm = zAngleNorm / Math.PI * 180;
-        
-        // zAngle = zAngle / Math.PI * 180; // from radians to degrees
-        // zAngle_short = zAngle.format("%.f"); // no decimal needed 
-        
-        // // steigungswinkel -> Steigung m= tan(alpha)
-        // zSlope = Math.tan(zAngle);
-        // System.println( "Version 1: Angle in degrees : "+ zAngle_short + "  Slope : "+zSlope);
-        // System.println("Version 1 Normalized:" + zAngleNorm);
-        
-
-		// Versioin 3 :
-		///////////////
 		// see Pdf 'Freescale Accelerometer' Ch. 5 
 
 		var m = Math.sqrt(( Math.pow(xAccel, 2) + Math.pow(yAccel, 2) + Math.pow(zAccel, 2)));
@@ -120,36 +89,31 @@ class Slope_WidgetView extends WatchUi.View {
 		zAngle3_degrees = zAngle3_degrees.format("%.f"); 	// round angle to full degrees
 		var zSlope3 = Math.tan(zAngle3);  					// calculate slope of line from angle
 		
-		// if angle > 90, line in left upper field. Angle needs to bee subtracted by 180
+		// if angle > 90, line in left upper field. Angle needs to be subtracted by 180
 		if (zAngle3_degrees.toNumber() > 90) {
-		angleDisplay = (zAngle3_degrees.toNumber() - 180);
-		angleDisplay = angleDisplay.abs().toString();
+			angleDisplay = (zAngle3_degrees.toNumber() - 180);
+			angleDisplay = angleDisplay.abs().toString();
 		} else {
-		angleDisplay = zAngle3_degrees.toString();
+			angleDisplay = zAngle3_degrees.toString();
 		}
-		
-        System.println( "Version 3: Angle in degrees : " + angleDisplay + "  Slope : "+zSlope3);
+//        System.println( "Version 3: Angle in degrees : " + angleDisplay + "  Slope : "+zSlope3);
 
 		// Getting the coordinates for the slope line on display
 		// if angle(in degrees) > 90, (x2|y2) becomes center and (x1|y1) calculated with lin. function - since slope negative
 		if (zAngle3_degrees.toNumber() > 90) {
-		x1 = 0;
-		y1 = (-zSlope3) * (0 -(displayWidth/2)) + (displayHeight/2);
-		x2 = displayWidth/2;
-		y2 = displayHeight/2;
+			x1 = 0;
+			y1 = (-zSlope3) * (0 -(displayWidth/2)) + (displayHeight/2);
+			x2 = displayWidth/2;
+			y2 = displayHeight/2;
 		} else {
-		x1 = displayWidth / 2 ; 
-		y1 = displayHeight / 2 ;
-		x2 = displayWidth;
-		y2 = (-zSlope3)*(displayWidth - x1) + y1;
+			x1 = displayWidth / 2 ; 
+			y1 = displayHeight / 2 ;
+			x2 = displayWidth;
+			y2 = (-zSlope3)*(displayWidth - x1) + y1;
 		}
 		
-		System.println("coordinates for slope line on display : x1/y1 :" + x1 + "/"+ y1 + " x2/ y2 : " + x2 + " /" + y2);
+//		System.println("coordinates for slope line on display : x1/y1 :" + x1 + "/"+ y1 + " x2/ y2 : " + x2 + " /" + y2);
         
-		//	Check if NEEDED !? 
-		// normally wearing watch left arm -> arm movement max -40 to +90 degrees
-		// background image enough if slope fields on right side (left side not needed?)
-		
 		WatchUi.requestUpdate();
 		}
 
@@ -166,10 +130,10 @@ class Slope_WidgetView extends WatchUi.View {
     	
     	// Draw backgroundImage, 
     	dc.drawBitmap(0, 0, backgroundImg);
-		// Slope-Line (Deviation from horizontal Level) 
+		// Slope-Line 
 		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
 		dc.setPenWidth(2);
-		dc.drawLine(x1, y1, x2, y2); // (x1|y1) display center
+		dc.drawLine(x1, y1, x2, y2);
 		
 		var angle1 = angleDisplay + '°';
 		var angle2 = angleAPI + '°';
@@ -185,12 +149,14 @@ class Slope_WidgetView extends WatchUi.View {
     function setPosition(info) {
         
         // create String of current GPS Data for Api Call
-        var myLocation = info.position.toDegrees();
+        var myLocation = info.position.toDegrees(); // get current position
         var lat = myLocation[0];
         var long = myLocation[1];
         locationString = lat + "," + long;
-// 		second Gps Location
-		var long2 = long + 0.001; // lat and long in decimaldegrees - adding 1sec (equal 30.9m) to longitude
+// 		second Gps Location as reference Location to get elevation difference of both gps Location to calculate slope
+		// var long2 = long + 0.001; // lat and long in decimaldegrees - adding 1sec (equal 30.9m) to longitude
+		var long2 = long + 0.00025; // 1/4 of sec = 7.725m
+
 		referenceLocation = lat + "," + long2;
        	// System.print("GPS Location at:" + locationString + ", reference-location at:  " + referenceLocation);
         
@@ -198,11 +164,8 @@ class Slope_WidgetView extends WatchUi.View {
         WatchUi.requestUpdate(); 
     }
     function makePlacesWebRequest() {
-		// 1. Google Maps Platform Api for Elevation - not free of cost
-//    	var url = "https://maps.googleapis.com/maps/api/elevation/json?locations=" + locationString + "&key="+ $.google_elevation_api_key; 	
-    	
-		// 2. Airmap API // free of charge ?
-//		make API Call for 2 gps-locations
+		// Airmap API // free of charge ?
+//		get elevation for current and reference GPS location
 		var url = "https://api.airmap.com/elevation/v1/ele/path?points=" + locationString + "," + referenceLocation + "/X-API-Key:{" + $.airmap_key +"}/Content-Type:application/json;charset=utf-8";
 	
 		var parameters = {
@@ -237,14 +200,14 @@ class Slope_WidgetView extends WatchUi.View {
 		
 		// take difference of first and last elevation result from "elevation" -> opposite cathete
 		var height_diff = null;
-
-		height_diff = elevation[0]- elevation[3];
+//		System.println(elevation);
+		height_diff = elevation[0]- elevation[1];
 		height_diff = height_diff.abs();
 //		System.println(" height Difference in m : " + height_diff + " on a length of 30.9m");
 
 		// angle of right traingle with arctan( opposite cathete / ankathete) 
 		// ankathete = 30.9 since adding 1 sec to longitude 
-		var angle = Math.atan2(height_diff, 30.9);
+		var angle = Math.atan2(height_diff, 7.725);
 		// angle in degrees
 		angleAPI = angle * 100;
 		angleAPI = angleAPI.toNumber().format("%.f");
@@ -261,52 +224,5 @@ class Slope_WidgetView extends WatchUi.View {
     	Sensor.unregisterSensorDataListener();
     	Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:setPosition));
     }
-    	
-	// helper function
-	function sq(x) {
-			return x * x;
-			}
-
-	// Helper function to check type of object
-	function type_name(obj) {
-	    if (obj instanceof Toybox.Lang.Number) {
-	        return "Number";
-	    } else if (obj instanceof Toybox.Lang.Long) {
-	        return "Long";
-	    } else if (obj instanceof Toybox.Lang.Float) {
-	        return "Float";
-	    } else if (obj instanceof Toybox.Lang.Double) {
-	        return "Double";
-	    } else if (obj instanceof Toybox.Lang.Boolean) {
-	        return "Boolean";
-	    } else if (obj instanceof Toybox.Lang.String) {
-	        return "String";
-	    } else if (obj instanceof Toybox.Lang.Array) {
-	        var s = "Array [";
-	        for (var i = 0; i < obj.size(); ++i) {
-	            s += type_name(obj);
-	            s += ", ";
-	        }
-	        s += "]";
-	        return s;
-	    } else if (obj instanceof Toybox.Lang.Dictionary) {
-	        var s = "Dictionary{";
-	        var keys = obj.keys();
-	        var vals = obj.values();
-	        for (var i = 0; i < keys.size(); ++i) {
-	            s += keys;
-	            s += ": ";
-	            s += vals;
-	            s += ", ";
-	        }
-	        s += "}";
-	        return s;
-	    } else if (obj instanceof Toybox.Time.Gregorian.Info) {
-	        return "Gregorian.Info";
-	    } else {
-	        return "???";
-	    }
-	}
-
 
 }

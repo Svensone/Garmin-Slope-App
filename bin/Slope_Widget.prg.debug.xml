@@ -8,8 +8,8 @@
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetApp.mc" id="5" lineNum="16" pc="268435484" symbol="onStop"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetApp.mc" id="6" lineNum="19" pc="268435489" symbol="getInitialView"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetApp.mc" id="6" lineNum="20" pc="268435493" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="8" lineNum="41" pc="268435531" symbol="initialize"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="8" lineNum="42" pc="268435535" symbol="initialize"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="8" lineNum="40" pc="268435531" symbol="initialize"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="8" lineNum="41" pc="268435535" symbol="initialize"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="9" lineNum="47" pc="268435554" symbol="onLayout"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="9" lineNum="48" pc="268435558" symbol="onLayout"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="9" lineNum="49" pc="268435595" symbol="onLayout"/>
@@ -23,179 +23,131 @@
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="68" pc="268435823" symbol="accelHistoryCallback"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="69" pc="268435845" symbol="accelHistoryCallback"/>
         <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="70" pc="268435867" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="71" pc="268435889" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="84" pc="268435933" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="85" pc="268435991" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="86" pc="268435998" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="87" pc="268436005" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="116" pc="268436012" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="117" pc="268436097" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="118" pc="268436104" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="119" pc="268436123" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="120" pc="268436152" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="121" pc="268436182" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="124" pc="268436201" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="125" pc="268436227" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="126" pc="268436258" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="128" pc="268436295" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="131" pc="268436320" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="135" pc="268436361" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="136" pc="268436387" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="137" pc="268436400" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="138" pc="268436452" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="139" pc="268436474" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="141" pc="268436499" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="142" pc="268436521" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="143" pc="268436543" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="144" pc="268436559" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="147" pc="268436602" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="153" pc="268436679" symbol="accelHistoryCallback"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="11" lineNum="157" pc="268436696" symbol="onShow"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="162" pc="268436701" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="164" pc="268436705" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="165" pc="268436745" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="168" pc="268436757" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="170" pc="268436787" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="171" pc="268436823" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="172" pc="268436840" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="174" pc="268436884" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="175" pc="268436900" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="178" pc="268436916" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="180" pc="268436964" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="182" pc="268437012" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="185" pc="268437029" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="188" pc="268437033" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="189" pc="268437052" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="190" pc="268437062" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="191" pc="268437072" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="193" pc="268437091" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="194" pc="268437101" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="197" pc="268437120" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="198" pc="268437132" symbol="setPosition"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="200" pc="268437149" symbol="makePlacesWebRequest"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="206" pc="268437153" symbol="makePlacesWebRequest"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="208" pc="268437209" symbol="makePlacesWebRequest"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="211" pc="268437217" symbol="makePlacesWebRequest"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="215" pc="268437245" symbol="makePlacesWebRequest"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="223" pc="268437284" symbol="onReceive"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="224" pc="268437288" symbol="onReceive"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="225" pc="268437299" symbol="onReceive"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="227" pc="268437316" symbol="onReceive"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="231" pc="268437352" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="232" pc="268437356" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="233" pc="268437374" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="235" pc="268437384" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="239" pc="268437402" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="241" pc="268437405" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="242" pc="268437424" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="247" pc="268437437" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="249" pc="268437461" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="250" pc="268437477" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="252" pc="268437516" symbol="parseResponse"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="17" lineNum="259" pc="268437533" symbol="onHide"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="17" lineNum="261" pc="268437537" symbol="onHide"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="17" lineNum="262" pc="268437553" symbol="onHide"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="18" lineNum="266" pc="268437598" symbol="sq"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="18" lineNum="267" pc="268437602" symbol="sq"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="271" pc="268437609" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="272" pc="268437613" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="273" pc="268437639" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="274" pc="268437648" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="275" pc="268437674" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="276" pc="268437683" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="277" pc="268437709" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="278" pc="268437718" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="279" pc="268437744" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="280" pc="268437753" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="281" pc="268437779" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="282" pc="268437788" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="283" pc="268437814" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="284" pc="268437823" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="285" pc="268437849" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="286" pc="268437856" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="287" pc="268437880" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="288" pc="268437898" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="290" pc="268437921" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="291" pc="268437931" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="292" pc="268437937" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="293" pc="268437963" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="294" pc="268437970" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="295" pc="268437983" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="296" pc="268437996" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="297" pc="268438020" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="298" pc="268438027" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="299" pc="268438037" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="300" pc="268438044" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="302" pc="268438067" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="303" pc="268438077" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="304" pc="268438083" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="305" pc="268438115" symbol="type_name"/>
-        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="19" lineNum="307" pc="268438124" symbol="type_name"/>
-        <entry filename="Rez" id="25" lineNum="16" pc="268438131" symbol="MainLayout"/>
-        <entry filename="Rez" id="25" lineNum="18" pc="268438143" symbol="MainLayout"/>
-        <entry filename="Rez" id="25" lineNum="20" pc="268438156" symbol="MainLayout"/>
-        <entry filename="Rez" id="25" lineNum="21" pc="268438261" symbol="MainLayout"/>
-        <entry filename="Rez" id="25" lineNum="22" pc="268438410" symbol="MainLayout"/>
-        <entry filename="Rez" id="25" lineNum="23" pc="268438559" symbol="MainLayout"/>
-        <entry filename="Rez" id="25" lineNum="25" pc="268438726" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="84" pc="268435889" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="85" pc="268435974" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="86" pc="268435981" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="87" pc="268435988" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="93" pc="268435995" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="94" pc="268436080" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="95" pc="268436087" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="96" pc="268436106" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="97" pc="268436135" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="98" pc="268436165" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="101" pc="268436184" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="102" pc="268436210" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="103" pc="268436241" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="105" pc="268436278" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="112" pc="268436303" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="113" pc="268436329" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="114" pc="268436342" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="115" pc="268436394" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="116" pc="268436416" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="118" pc="268436441" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="119" pc="268436463" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="120" pc="268436485" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="121" pc="268436501" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="10" lineNum="130" pc="268436544" symbol="accelHistoryCallback"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="11" lineNum="134" pc="268436561" symbol="onShow"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="139" pc="268436566" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="141" pc="268436570" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="142" pc="268436610" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="145" pc="268436622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="147" pc="268436652" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="148" pc="268436688" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="149" pc="268436705" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="151" pc="268436749" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="152" pc="268436765" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="155" pc="268436781" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="157" pc="268436829" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="12" lineNum="159" pc="268436877" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="162" pc="268436894" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="165" pc="268436898" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="166" pc="268436917" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="167" pc="268436927" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="168" pc="268436937" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="171" pc="268436956" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="173" pc="268436966" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="176" pc="268436985" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="13" lineNum="177" pc="268436997" symbol="setPosition"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="179" pc="268437014" symbol="makePlacesWebRequest"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="182" pc="268437018" symbol="makePlacesWebRequest"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="184" pc="268437074" symbol="makePlacesWebRequest"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="187" pc="268437082" symbol="makePlacesWebRequest"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="14" lineNum="191" pc="268437110" symbol="makePlacesWebRequest"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="199" pc="268437149" symbol="onReceive"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="200" pc="268437153" symbol="onReceive"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="201" pc="268437164" symbol="onReceive"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="15" lineNum="203" pc="268437181" symbol="onReceive"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="207" pc="268437217" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="208" pc="268437221" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="209" pc="268437239" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="211" pc="268437249" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="215" pc="268437267" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="217" pc="268437270" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="218" pc="268437289" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="223" pc="268437302" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="225" pc="268437326" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="226" pc="268437342" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="16" lineNum="228" pc="268437381" symbol="parseResponse"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="17" lineNum="235" pc="268437398" symbol="onHide"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="17" lineNum="237" pc="268437402" symbol="onHide"/>
+        <entry filename="C:\\Users\\ansve\\eclipse-workspace\\Slope_Widget\\source\\Slope_WidgetView.mc" id="17" lineNum="238" pc="268437418" symbol="onHide"/>
+        <entry filename="Rez" id="23" lineNum="16" pc="268437463" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="18" pc="268437475" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="20" pc="268437488" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="21" pc="268437593" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="22" pc="268437742" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="23" pc="268437891" symbol="MainLayout"/>
+        <entry filename="Rez" id="23" lineNum="25" pc="268438058" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="33" method="true" symbol="setPosition"/>
+        <entry id="25" method="true" symbol="setPosition"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="43" method="true" symbol="MainLayout"/>
-        <entry field="true" id="31" symbol="backgroundImg"/>
-        <entry field="true" id="15" symbol="zAngle"/>
-        <entry field="true" id="16" symbol="zAngleNorm"/>
+        <entry id="33" method="true" symbol="MainLayout"/>
+        <entry field="true" id="23" symbol="backgroundImg"/>
         <entry id="8390135" symbol="enableAccelerometer"/>
-        <entry id="36" method="true" symbol="parseResponse"/>
+        <entry id="28" method="true" symbol="parseResponse"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="18" symbol="zAngle3_degrees"/>
-        <entry field="true" id="28" symbol="displayHeight"/>
-        <entry field="true" id="44" symbol="AppName"/>
+        <entry field="true" id="11" symbol="zAngle3_degrees"/>
+        <entry field="true" id="20" symbol="displayHeight"/>
+        <entry field="true" id="34" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="34" method="true" symbol="makePlacesWebRequest"/>
+        <entry id="26" method="true" symbol="makePlacesWebRequest"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="29" symbol="angleAPI"/>
+        <entry field="true" id="21" symbol="angleAPI"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="24" symbol="y2"/>
-        <entry field="true" id="23" symbol="y1"/>
-        <entry field="true" id="22" symbol="x2"/>
-        <entry field="true" id="21" symbol="x1"/>
-        <entry id="37" method="true" symbol="sq"/>
+        <entry field="true" id="16" symbol="y2"/>
+        <entry field="true" id="15" symbol="y1"/>
+        <entry field="true" id="14" symbol="x2"/>
+        <entry field="true" id="13" symbol="x1"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="40" module="true" symbol="Menus"/>
+        <entry id="30" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="10" symbol="airmap_key"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="14" symbol="angleL"/>
         <entry field="true" id="8390134" symbol="sampleRate"/>
-        <entry field="true" id="27" symbol="displayWidth"/>
-        <entry field="true" id="41" symbol="bg"/>
-        <entry field="true" id="13" symbol="aZ"/>
-        <entry field="true" id="12" symbol="aY"/>
-        <entry field="true" id="11" symbol="aX"/>
+        <entry field="true" id="19" symbol="displayWidth"/>
+        <entry field="true" id="31" symbol="bg"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="20" symbol="zSlope"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8389844" symbol="responseType"/>
-        <entry field="true" id="26" symbol="referenceLocation"/>
-        <entry field="true" id="19" symbol="angleDisplay"/>
+        <entry field="true" id="18" symbol="referenceLocation"/>
+        <entry field="true" id="12" symbol="angleDisplay"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="35" method="true" symbol="onReceive"/>
-        <entry field="true" id="17" symbol="zAngle_short"/>
+        <entry id="27" method="true" symbol="onReceive"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry id="32" method="true" symbol="accelHistoryCallback"/>
-        <entry field="true" id="42" symbol="LauncherIcon"/>
+        <entry id="24" method="true" symbol="accelHistoryCallback"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
@@ -206,14 +158,13 @@
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="8389808" symbol="period"/>
         <entry id="8388641" module="true" symbol="Math"/>
-        <entry field="true" id="25" symbol="locationString"/>
+        <entry field="true" id="17" symbol="locationString"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="38" method="true" symbol="type_name"/>
-        <entry id="39" module="true" symbol="Layouts"/>
+        <entry id="29" module="true" symbol="Layouts"/>
         <entry id="8388642" module="true" symbol="Position"/>
-        <entry id="30" object="true" symbol="Slope_WidgetView"/>
+        <entry id="22" object="true" symbol="Slope_WidgetView"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
@@ -223,64 +174,56 @@
         <entry arg="true" endPc="268435489" name="state" stackId="1" startPc="268435484"/>
         <entry endPc="268435818" name="options" stackId="2" startPc="268435558"/>
         <entry arg="true" endPc="268435819" name="dc" stackId="1" startPc="268435554"/>
-        <entry endPc="268436695" name="norm" stackId="5" startPc="268435823"/>
-        <entry endPc="268436695" name="zSlope3" stackId="12" startPc="268435823"/>
-        <entry endPc="268436695" name="m" stackId="9" startPc="268435823"/>
-        <entry endPc="268436695" name="yAccel" stackId="3" startPc="268435823"/>
-        <entry endPc="268436695" name="cos_p" stackId="10" startPc="268435823"/>
-        <entry endPc="268436695" name="zAccel" stackId="4" startPc="268435823"/>
-        <entry endPc="268436695" name="zNorm" stackId="8" startPc="268435823"/>
-        <entry endPc="268436695" name="zAngle3" stackId="11" startPc="268435823"/>
-        <entry endPc="268436695" name="yNorm" stackId="7" startPc="268435823"/>
-        <entry endPc="268436695" name="xNorm" stackId="6" startPc="268435823"/>
-        <entry endPc="268436695" name="xAccel" stackId="2" startPc="268435823"/>
-        <entry arg="true" endPc="268436696" name="sensorData" stackId="1" startPc="268435819"/>
-        <entry endPc="268437028" name="angle2" stackId="3" startPc="268436705"/>
-        <entry endPc="268437028" name="angle1" stackId="2" startPc="268436705"/>
-        <entry arg="true" endPc="268437029" name="dc" stackId="1" startPc="268436701"/>
-        <entry endPc="268437148" name="long2" stackId="5" startPc="268437033"/>
-        <entry endPc="268437148" name="long" stackId="4" startPc="268437033"/>
-        <entry endPc="268437148" name="lat" stackId="3" startPc="268437033"/>
-        <entry endPc="268437148" name="myLocation" stackId="2" startPc="268437033"/>
-        <entry arg="true" endPc="268437149" name="info" stackId="1" startPc="268437029"/>
-        <entry endPc="268437283" name="options" stackId="3" startPc="268437153"/>
-        <entry endPc="268437283" name="url" stackId="1" startPc="268437153"/>
-        <entry endPc="268437283" name="parameters" stackId="2" startPc="268437153"/>
-        <entry arg="true" endPc="268437352" name="responseCode" stackId="1" startPc="268437284"/>
-        <entry arg="true" endPc="268437352" name="data" stackId="2" startPc="268437284"/>
-        <entry endPc="268437532" name="results1" stackId="3" startPc="268437356"/>
-        <entry endPc="268437532" name="results" stackId="2" startPc="268437356"/>
-        <entry endPc="268437532" name="elevation" stackId="4" startPc="268437356"/>
-        <entry endPc="268437532" name="angle" stackId="6" startPc="268437356"/>
-        <entry endPc="268437532" name="height_diff" stackId="5" startPc="268437356"/>
-        <entry arg="true" endPc="268437533" name="data" stackId="1" startPc="268437352"/>
-        <entry arg="true" endPc="268437609" name="x" stackId="1" startPc="268437598"/>
-        <entry endPc="268437921" name="i" stackId="3" startPc="268437880"/>
-        <entry endPc="268437934" name="s" stackId="2" startPc="268437849"/>
-        <entry endPc="268438067" name="i" stackId="7" startPc="268438020"/>
-        <entry endPc="268438080" name="s" stackId="4" startPc="268437963"/>
-        <entry endPc="268438080" name="keys" stackId="5" startPc="268437963"/>
-        <entry endPc="268438080" name="vals" stackId="6" startPc="268437963"/>
-        <entry arg="true" endPc="268438131" name="obj" stackId="1" startPc="268437609"/>
-        <entry endPc="268438773" name="rez_cmp_local_text_accelZ" stackId="5" startPc="268438143"/>
-        <entry endPc="268438773" name="rez_cmp_local_bitmap_bg" stackId="3" startPc="268438143"/>
-        <entry endPc="268438773" name="rez_cmp_local_text_accelX" stackId="6" startPc="268438143"/>
-        <entry endPc="268438773" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268438143"/>
-        <entry endPc="268438773" name="rez_cmp_local_text_gps" stackId="4" startPc="268438143"/>
-        <entry arg="true" endPc="268438774" name="dc" stackId="1" startPc="268438131"/>
+        <entry endPc="268436560" name="norm" stackId="5" startPc="268435823"/>
+        <entry endPc="268436560" name="zSlope3" stackId="12" startPc="268435823"/>
+        <entry endPc="268436560" name="m" stackId="9" startPc="268435823"/>
+        <entry endPc="268436560" name="yAccel" stackId="3" startPc="268435823"/>
+        <entry endPc="268436560" name="cos_p" stackId="10" startPc="268435823"/>
+        <entry endPc="268436560" name="zAccel" stackId="4" startPc="268435823"/>
+        <entry endPc="268436560" name="zNorm" stackId="8" startPc="268435823"/>
+        <entry endPc="268436560" name="zAngle3" stackId="11" startPc="268435823"/>
+        <entry endPc="268436560" name="yNorm" stackId="7" startPc="268435823"/>
+        <entry endPc="268436560" name="xNorm" stackId="6" startPc="268435823"/>
+        <entry endPc="268436560" name="xAccel" stackId="2" startPc="268435823"/>
+        <entry arg="true" endPc="268436561" name="sensorData" stackId="1" startPc="268435819"/>
+        <entry endPc="268436893" name="angle2" stackId="3" startPc="268436570"/>
+        <entry endPc="268436893" name="angle1" stackId="2" startPc="268436570"/>
+        <entry arg="true" endPc="268436894" name="dc" stackId="1" startPc="268436566"/>
+        <entry endPc="268437013" name="long2" stackId="5" startPc="268436898"/>
+        <entry endPc="268437013" name="long" stackId="4" startPc="268436898"/>
+        <entry endPc="268437013" name="lat" stackId="3" startPc="268436898"/>
+        <entry endPc="268437013" name="myLocation" stackId="2" startPc="268436898"/>
+        <entry arg="true" endPc="268437014" name="info" stackId="1" startPc="268436894"/>
+        <entry endPc="268437148" name="options" stackId="3" startPc="268437018"/>
+        <entry endPc="268437148" name="url" stackId="1" startPc="268437018"/>
+        <entry endPc="268437148" name="parameters" stackId="2" startPc="268437018"/>
+        <entry arg="true" endPc="268437217" name="responseCode" stackId="1" startPc="268437149"/>
+        <entry arg="true" endPc="268437217" name="data" stackId="2" startPc="268437149"/>
+        <entry endPc="268437397" name="results1" stackId="3" startPc="268437221"/>
+        <entry endPc="268437397" name="results" stackId="2" startPc="268437221"/>
+        <entry endPc="268437397" name="elevation" stackId="4" startPc="268437221"/>
+        <entry endPc="268437397" name="angle" stackId="6" startPc="268437221"/>
+        <entry endPc="268437397" name="height_diff" stackId="5" startPc="268437221"/>
+        <entry arg="true" endPc="268437398" name="data" stackId="1" startPc="268437217"/>
+        <entry endPc="268438105" name="rez_cmp_local_text_accelZ" stackId="5" startPc="268437475"/>
+        <entry endPc="268438105" name="rez_cmp_local_bitmap_bg" stackId="3" startPc="268437475"/>
+        <entry endPc="268438105" name="rez_cmp_local_text_accelX" stackId="6" startPc="268437475"/>
+        <entry endPc="268438105" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268437475"/>
+        <entry endPc="268438105" name="rez_cmp_local_text_gps" stackId="4" startPc="268437475"/>
+        <entry arg="true" endPc="268438106" name="dc" stackId="1" startPc="268437463"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry offset="310" parentId="globals" symbolId="Slope_WidgetView" type="class"/>
-        <dataEntry offset="453" parentId="globals" symbolId="Slope_WidgetApp" type="class"/>
-        <dataEntry offset="532" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="611" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="658" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="689" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="720" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="759" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="790" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="246" parentId="globals" symbolId="Slope_WidgetView" type="class"/>
+        <dataEntry offset="373" parentId="globals" symbolId="Slope_WidgetApp" type="class"/>
+        <dataEntry offset="452" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="531" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="578" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="609" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="640" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="679" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="710" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="Slope_WidgetApp">
@@ -332,14 +275,6 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="Slope_WidgetView">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="sq" parent="Slope_WidgetView">
-            <param id="x"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" name="type_name" parent="Slope_WidgetView">
-            <param id="obj"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="MainLayout" parent="Layouts">

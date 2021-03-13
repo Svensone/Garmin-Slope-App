@@ -1,10 +1,7 @@
 using Toybox.Application;
-using Toybox.Position;
-using Toybox.System as Sys;
+using Toybox.WatchUi as Ui;
 
 class Slope_WidgetApp extends Application.AppBase {
-
-	var locationString;
 	
     function initialize() {
         AppBase.initialize();
@@ -19,5 +16,7 @@ class Slope_WidgetApp extends Application.AppBase {
     function getInitialView() {
         return [ new Slope_WidgetView() ];
     }
-
+    function onSettingsChanged(){
+        Ui.requestUpdate();
+    }
 }
